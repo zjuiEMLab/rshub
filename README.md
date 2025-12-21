@@ -24,6 +24,3 @@ RSHub utilizing **tokens** to run, query, and download results. Register your ac
 - [x] **[Snow demo DMRT-BIC](https://github.com/zjuiEMLab/rshub/blob/main/demo/Snow-demo-DMRT-BIC.ipynb): Brightness temperature and backscatter of a three-layer Snow scenario**
 
     > This demo estimates multilayer brightness temperature and/or backscatter of snow using DMRT-BIC model.
-
-- [x] **[Soil Model](https://github.com/zjuiEMLab/rshub/blob/main/demo/Soil-demo-1.ipynb)**
-    > This demo estimates brightness temperature and/or backscatter of soil using NMM3D-VIE-DDA model.
