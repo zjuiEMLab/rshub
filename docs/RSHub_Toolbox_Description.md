@@ -160,11 +160,8 @@ Example:
   "clay": 0.19,
   "rough_type": 2,
   "veg_height": 8,
-  "err": 0.1,
   "Tgnd": 300,
   "Tveg": 300,
-  "Flag_coupling": 1,
-  "core_num": 10
 }
 ```
 
@@ -184,8 +181,6 @@ Example:
 | `scatters` | Scatter populations; each entry is a 12-element array. |  | list |
 | `veg_height` | Default: `8`. Vegetation height. | m | scalar |
 | `Tveg` | Default: `300`. Vegetation temperature. | K | scalar |
-| `err` | Default: `0.1`. Convergence error. | K | scalar |
-| `Flag_coupling` | Default: `1`. 1: volume-surface coupling; 0: volume only. |  | scalar |
 
 ###### Soil Parameters
 
@@ -197,7 +192,6 @@ Example:
 | `clay` | Default: `0.19`. Soil clay fraction. |  | scalar |
 | `rough_type` | Default: `2`. Roughness model: `1` Gaussian, `2` Exponential. |  | scalar |
 | `Tgnd` | Default: `300`. Ground temperature. | K | scalar |
-| `core_num` | Default: `10`. CPU cores/threads. |  | scalar |
 
 Scatterer fields (12 values per entry):
 

@@ -15,8 +15,6 @@
 | `scatters` | Scatter populations; each entry is a 12-element array. |  | list |
 | `veg_height` | Default: `8`. Vegetation height. | m | scalar |
 | `Tveg` | Default: `300`. Vegetation temperature. | K | scalar |
-| `err` | Default: `0.1`. Convergence error. | K | scalar |
-| `Flag_coupling` | Default: `1`. 1: volume-surface coupling; 0: volume only. |  | scalar |
 
 ### Soil Parameters
 
@@ -28,7 +26,6 @@
 | `clay` | Default: `0.19`. Soil clay fraction. |  | scalar |
 | `rough_type` | Default: `2`. Roughness model: `1` Gaussian, `2` Exponential. |  | scalar |
 | `Tgnd` | Default: `300`. Ground temperature. | K | scalar |
-| `core_num` | Default: `10`. CPU cores/threads. |  | scalar |
 
 Each `scatters` entry is ordered as:
 
