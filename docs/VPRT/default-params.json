@@ -1,0 +1,1 @@
+{"fGHz": 1.41, "core_num": 10, "scatters": [[1, 0.37, 7.85, 0.15, 0, 0, 0, 8, 0.24], [1, 0.444, 0.555, 0.0112, 35, 90, 0, 8, 0.24]], "sm": 0.1, "rmsh": 0.01, "corlength": 0.1, "clay": 0.19, "perm_soil_r": 0, "perm_soil_i": 0, "rough_type": 2, "veg_height": 8, "err": 0.1, "Tgnd": 300, "Tveg": 300, "Flag_coupling": 1, "Flag_forced_cal": 0}

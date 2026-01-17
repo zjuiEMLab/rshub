@@ -1,0 +1,1 @@
+{"output_var":"tb","fGHz": [9.6,13.4,17.2], "angle": [30,40,50], "depth": [20,20,20],"rho": [0.3,0.3,0.3],"zp": [1.2,1.2,1.2],"kc":[10000,10000,10000],"Tsnow": [260,260,260],"Tg": 270,"epsr_ground_r":[],"epsr_ground_i":[],"mv": 0.15,"clayfrac": 0.3, "surf_model_setting":[1,0,0],"lut_flag":1,"Nquad":64, "del":0.0005,"nd":64,"nrlz":50}
