@@ -17,10 +17,15 @@ RSHub utilizing **tokens** to run, query, and download results. Register your ac
 - [x] **[Vegetation Validation](https://github.com/zjuiEMLab/rshub/blob/main/demo/Vegetation-Validation.ipynb): Validate passive VRT using SMAPVEX12 data** 🌵🌲🌳🎍🎋🌾
 
     > This demo validate the modeled brightness temperature at 1.41 from VPT using SMAPVEX12 cite F5 measurements .
+
+- [x] **[Snow demo DMRT-TRI](https://github.com/zjuiEMLab/rshub/blob/main/demo/Snow-demo-DMRT-TRI.ipynb): Latest Snow Model! upgraded from DMRT-TRI to support computing scattering from both dry and wet snow. Brightness temperature and backscatter of a four-layer Snow scenario**
+
+    > This demo estimates multilayer brightness temperature and/or backscatter of snow using DMRT-TRI model.
+
+- [x] **[Snow demo DMRT-BIC](https://github.com/zjuiEMLab/rshub/blob/main/demo/Snow-demo-DMRT-BIC-deprecated.ipynb): Brightness temperature and backscatter of a three-layer Snow scenario**
+
+    > This demo estimates multilayer brightness temperature and/or backscatter of snow using DMRT-BIC model.
+
 - [x] **[Snow demo DMRT-QMS](https://github.com/zjuiEMLab/rshub/blob/main/demo/Snow-demo-DMRT-QMS.ipynb): Brightness temperature and backscatter of a three-layer snow scenario**
 
     > This demo estimates multilayer brightness temperature and/or backscatter of snow using DMRT-QMS model.
-
-- [x] **[Snow demo DMRT-BIC](https://github.com/zjuiEMLab/rshub/blob/main/demo/Snow-demo-DMRT-BIC.ipynb): Brightness temperature and backscatter of a three-layer Snow scenario**
-
-    > This demo estimates multilayer brightness temperature and/or backscatter of snow using DMRT-BIC model.
