@@ -45,3 +45,5 @@ Array inputs can be comma-separated values (e.g., "20,20,20").
 | vhdb      | Total backscatter VH                                            | dB   | 1 x 1                  | 1 active   |
 | hhdb      | Total backscatter HH                                            | dB   | 1 x 1                  | 1 active   |
 | hvdb      | Total backscatter HV                                            | dB   | 1 x 1                  | 1 active   |
+| ke        | Extinction coefficient                                          | 1/cm | layers x 1             | 1 active, 2 passive |
+| epsr_eff  | Snow effective permittivity of each layer                       |      | 9 x 1                  | 1 active, 2 passive  |

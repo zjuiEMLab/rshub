@@ -47,6 +47,7 @@ Array inputs can be comma-separated values (e.g., "20,20,20").
 | TBh       | TB at horizontal polarization at `deg0`                         | K    | deg0 x 1               | 2 passive  |
 | ot        | Optical thickness of each layer                                 | cm   | layers x 1             | 1 active, 2 passive |
 | epsr_snow | Snow effective permittivity of each layer                       |      | layers x 1             | 2 passive  |
+| ke        | Extinction coefficient                                          | 1/cm | layers x 1             | 1 active, 2 passive |
 | vv_vol    | Volume backscatter VV (linear; 10log10 for dB)                  |      | 1 x 1                  | 1 active   |
 | hv_vol    | Volume backscatter HV (linear; 10log10 for dB)                  |      | 1 x 1                  | 1 active   |
 | vh_vol    | Volume backscatter VH (linear; 10log10 for dB)                  |      | 1 x 1                  | 1 active   |
