@@ -1,0 +1,45 @@
+{
+  "algorithm":"vie",
+  "output_var": "sigma",
+  "microwave": {
+    "fGHz": 1.26,
+    "angle": 30,
+    "output_var": "sigma"
+  },
+  "geometry": {
+    "Lx": 1.6,
+    "Ly": 1.6,
+    "Lz": 0.08,
+    "xr": -0.8,
+    "yr": -0.8,
+    "zr": 0,
+    "d": 0.004
+  },
+  "soil": {
+    "layers_bottom_to_top": [
+      {
+        "soilType": 2,
+        "RMSHeight": 0.0,
+        "CLx": 0.0,
+        "CLy": 0.0,
+        "layerZaxis": 0.001,
+        "epsr_re": 5.9308,
+        "epsr_im": 0.5349,
+        "Tb": 273.15
+      }
+    ]
+  },
+  "dielectric": {
+    "epsr_g_re": 5.98,
+    "epsr_g_im": 0.54
+  },
+  "temperature": {
+    "Ts": 273.15,
+    "Tg": 273.15
+  },
+  "monte_carlo": {
+    "nr": 15,
+    "ir_beg": 1,
+    "ir_end": 15
+  }
+}
