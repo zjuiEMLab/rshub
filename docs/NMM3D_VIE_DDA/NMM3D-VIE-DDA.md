@@ -26,20 +26,18 @@ Only parameters that actually participate in the current calculation are listed 
 | `rest` | GMRES restart parameter. |  | scalar/integer |
 | `maxiter` | Maximum GMRES iteration count. |  | scalar/integer |
 
-### Soil profile file
+### Soil profile file (from bottom to top)
 
-The wrapper reads every `${MODELPATH}/Media/*SoilP_profile*.txt`. Each row represents one layer.
-
-| Column | Definition | Unit |
+| Parameter | Definition | Unit |
 | --- | --- | --- |
-| 1 | Roughness correlation type: `1` for Gaussian and `2` for exponential. |  |
-| 2 | RMS roughness height. | m |
-| 3 | Correlation length in the x direction. | m |
-| 4 | Correlation length in the y direction. | m |
-| 5 | Layer elevation/depth parameter. | m |
-| 6 | Real part of layer relative permittivity. |  |
-| 7 | Imaginary part of layer relative permittivity. |  |
-| 8 | Layer physical temperature used in layer-emission calculations. | K |
+| soilType | Roughness correlation type: `1` for Gaussian and `2` for exponential. |  |
+| RMSHeight | RMS roughness height. | m |
+| CLx | Correlation length in the x direction. | m |
+| CLy | Correlation length in the y direction. | m |
+| layerZaxis | Layer elevation/depth parameter. | m |
+| epsr_re | Real part of layer relative permittivity. |  |
+| epsr_im | Imaginary part of layer relative permittivity. |  |
+| Tb | Layer physical temperature used in layer-emission calculations. | K |
 
 ## Outputs
 
