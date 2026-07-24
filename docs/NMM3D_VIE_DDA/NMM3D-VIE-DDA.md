@@ -34,7 +34,7 @@ Only parameters that actually participate in the current calculation are listed 
 | RMSHeight | RMS roughness height. | m |
 | CLx | Correlation length in the x direction. | m |
 | CLy | Correlation length in the y direction. | m |
-| layerZaxis | Layer elevation/depth parameter. | m |
+| layerZaxis | layer (top) elevation parameter (from bottom to top). | m |
 | epsr_re | Real part of layer relative permittivity. |  |
 | epsr_im | Imaginary part of layer relative permittivity. |  |
 | Tb | Layer physical temperature used in layer-emission calculations. | K |
