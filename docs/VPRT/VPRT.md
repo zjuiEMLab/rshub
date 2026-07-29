@@ -39,7 +39,7 @@ Each `scatters` entry is ordered as:
 | `scatters[6] beta2` | Index 6. Orientation max. | deg | scalar |
 | `scatters[7] disbot` | Index 7. Vertical start. | m | scalar |
 | `scatters[8] distop` | Index 8. Vertical end. | m | scalar |
-| `scatters[9] NA` | Index 9. Number density. |  | scalar |
+| `scatters[9] NA` | Index 9. Number density. | #trees/m^2 | scalar |
 | `scatters[10] profile_a` | Index 10. Profile parameter a. |  | scalar |
 | `scatters[11] profile_b` | Index 11. Profile parameter b. |  | scalar |
 | `scatters[12] profile_c` | Index 12. Profile parameter c. |  | scalar |
