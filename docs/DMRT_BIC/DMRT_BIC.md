@@ -21,6 +21,18 @@ Array inputs can be comma-separated values (e.g., "20,20,20").
 | `zp` | Default: `[1.2, 1.2, 1.2]`. Layered b parameter. |  | layers |
 | `Tsnow` | Default: `[260, 260, 260]`. Snow layer temperature. | K | layers |
 
+### LUT Selection
+
+`lut_flag` controls phase-matrix LUT selection in both the active and passive BIC solvers.
+
+| Value | Behavior |
+| --- | --- |
+| `"auto"` | Load the exact local `BiC_*.mat` file from the output `lib` folder when it exists; otherwise compute and save it. |
+| `"force"` | Compute the phase matrix and overwrite the exact local `BiC_*.mat` file, even when it already exists. |
+| `"nearest"` | Load the nearest bundled LUT selected by `loadbicfile`; never compute a new LUT. |
+
+For backward compatibility, numeric `0` means `"auto"` and numeric `1` means `"nearest"`. The wrapper accepts either the numeric aliases or the named values. In the standard wrapper layout, locally generated LUTs are stored under `<save_folder>/Result/lib/`; bundled LUTs are stored in `src/DMRT_BIC-v1/code/biclib/`.
+
 ## Soil Parameters
 
 | Variables/Parameters | Definition | Unit | Size |
